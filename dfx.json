@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "coownaccounts_backend": {
+      "main": "src/coownaccounts_backend/main.mo",
+      "type": "motoko"
+    },
+    "coownaccounts_frontend": {
+      "dependencies": [
+        "coownaccounts_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/coownaccounts_frontend/src/index.html"
+      },
+      "source": [
+        "src/coownaccounts_frontend/assets",
+        "dist/coownaccounts_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
