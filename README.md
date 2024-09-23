@@ -60,3 +60,4 @@ If you are hosting frontend code somewhere without using DFX, you may need to ma
 # Co-ownedAccounts
 # COOWN-account
 # COOWN-account
+# COOWN-account
